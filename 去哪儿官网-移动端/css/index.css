@@ -1,0 +1,47 @@
+/*轮播图*/
+.focus{ width:100%; height:140px;  margin:0 auto; position:relative; overflow:hidden;   }
+.focus .hd{ width:100%; height:11px;  position:absolute; z-index:1; bottom:5px; text-align:center;  }
+.focus .hd ul{ display:inline-block; height:5px; padding:3px 5px;
+	-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; font-size:0; vertical-align:top;
+}
+.focus .hd ul li{ display:inline-block; width:5px; height:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#8C8C8C; margin:0 5px;  vertical-align:top; overflow:hidden;   }
+.focus .hd ul .on{ background:white;  }
+.focus .bd{ position:relative; z-index:0; }
+.focus .bd li img{ width:100%;  height:140px; background:url(../img/details/loading.gif) center center no-repeat;  }
+.focus .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+.w100{width: 100%}
+
+
+
+/*主体*/
+.bgR{background-color: #ff5555;}
+.bgB{background-color: #00a7f7;}
+.bgG{background-color: #7cb832;}
+.bgO{background-color: #ff9900;}
+.bgY{background-color: #eeeeee;}
+.section-div,.section-ul{display: flex;box-sizing: border-box;}
+.section-div div{flex: 1;}
+.small div{padding: 5px 0px;}
+.div{flex-direction: column;}
+.div p{flex: 1;padding: 10px 0;width: 100%;}
+.section-div a{color: white}
+.bgimg{width: 42px;height: 46px;background: url(../img/index/hotel.png) no-repeat;background-size: 100% 100%;
+display: inline-block;}
+.bgimg2{width: 42px;height: 46px;background: url(../img/index/flight.png) no-repeat;background-size: 100% 100%;
+display: inline-block;}
+.bgimg3{width: 42px;height: 46px;background: url(../img/index/holiday.png) no-repeat;background-size: 100% 100%;
+display: inline-block;}
+
+
+
+hr{height: 5px;background-color:#B7B5B5;border: none;}
+
+
+
+.section-ul a{color: gray;display: inline-block;}
+.my a{color: #505050;}
+.my img{width: 30px;height: 30px;}
+.section-ul li{float: left;flex: 1;text-align: center;}
+#width{width: 100px;}
+.section-ul img{width: 33px;height: 33px;}
+.section-div .flex2{flex: 2}

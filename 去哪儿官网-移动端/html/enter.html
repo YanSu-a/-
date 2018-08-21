@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/enter.css">
+	<link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css">
+</head>
+<body>
+	<div>
+		<!-- 短信登录栏 -->
+		<div id="note-box" class="note-box">
+			<div class="bgBlues">
+				<div class="head clearfix head-flex">
+					<span class="tl"><a href="details.html" class="green iconfont">&#xe60c;</a></span>
+	                <span class="tc"><a href="javascript:void(0)" class="font16 white">登录</a></span>
+	                <span class="tr"><a href="javascript:void(0)" class="green">注册</a></span>
+				</div>
+				<!-- 短信验证 -->
+				<div class="head2 head-flex">
+					<span class="bgWhite blue tc note" id="note"><a href="javascript:void(0)" class="blue">短信验证码登录</a></span>
+					<span class=" wBorder tc white ident" id="ident"><a href="javascript:void(0)" class="white">账号登录</a></span>
+				</div>
+			</div>
+			<!-- 表单 -->
+			<form name="form" method="post" action="index.html">
+				<div class="pd10 wBtBorder wTopBorder mt10">
+					<span class="blue mr20">手机号</span>
+					<input type="tel" name="phone" placeholder="请输入手机号" required >
+				</div>
+				<div class="pd-5 clearfix wBtBorder mid">
+					<span class="blue mr20 mid">验证码</span>
+					<input type="text" name="yzm" placeholder="请输入验证码" required class="mid ver">
+					<a href="javascript:void(0)" class="gray fr gBorder pd-5 mid" id="gets">获取验证码</a>
+				</div>
+				<!-- 登录按钮 -->
+				<div class="mt10">
+				   <input type="submit" name="submit" value="登录" class="enter-but white bgBlueq pd-10">
+			    </div>
+			</form>
+		</div>
+		
+        
+        <!-- 账号登录 -->
+        <div class="none ident-box" id="ident-box">
+        	<!-- head -->
+			<div class="bgBlues">
+				<div class="head clearfix head-flex">
+					<span class="tl"><a href="details.html" class="green iconfont">&#xe60c;</a></span>
+	                <span class="tc"><a href="javascript:void(0)" class="font16 white">登录</a></span>
+	                <span class="tr"><a href="javascript:void(0)" class="green">注册</a></span>
+				</div>
+				<!-- 账号登录 -->
+				<div class="head2 head-flex">
+					<span class=" wBorder tc white note" id="notes">短信验证码登录</span>
+					<span class="bgWhite blue tc ident" id="idents">账号登录</span>
+				</div>
+			</div>
+			<!-- 表单 -->
+			<form name="meform" method="post" action="index.html">
+				<div class="pd10 wBtBorder wTopBorder mt10">
+					<span class="blue mr20">账号</span>
+					<input type="text" name="ident" placeholder="手机号/邮箱/用户名" required>
+				</div>
+				<div class="pd10 wBtBorder">
+					<span class="blue mr20">密码</span>
+					<input type="password" name="pwd" placeholder="请输入密码" required>
+				</div>
+				<!-- 登录按钮 -->
+				<div class="mt10 tc bgBlueq pd10" id="sub">
+					<a href="#" id="reg" class="white">登录</a>
+				</div>
+				<div class="tr"><a href="javascript:void(0)" class="blue">找回密码</a></div>
+			</form>
+		</div>
+
+        
+
+        <!-- 遮罩层 -->
+        <div id="zzc" class="tc none">
+        	<div class="tk bgWhite ">
+        		<p class="pd-5" id="port">账号输入错误</p>
+        		<p class="font16 blue wTopBorder pd-5" id="sure">确定</p>
+        	</div>
+        </div>
+
+		
+		
+
+		<!-- 尾部 -->
+		<div class="foot-box wBorder bgWhite">
+			<ul class="blue foot-ul head-flex tc">
+				<li><a href="javascript:void(0)">电脑版</a></li>
+				<li><a href="javascript:void(0)">关于我们</a></li>
+				<li><a href="javascript:void(0)">意见反馈</a></li>
+			</ul>
+			<hr class="gray">
+			<div class="gray tc">Qunar 京ICP备05021087</div>
+		</div>
+
+	</div>
+
+	<!-- js文件导入 -->
+	<script type="text/javascript" src="../js/enter.js"></script>
+</body>
+</html>

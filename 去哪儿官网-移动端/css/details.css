@@ -1,0 +1,54 @@
+/*头部*/
+.head,.hot-ul{box-sizing: border-box;display: flex;}
+.head span{flex: 1;}
+.head .f8{flex:6;margin-bottom: 5px;height: 30px;line-height: 30px;}
+.head .f4{flex:2}
+.inp{border-radius: 5px;}
+.t-img{width: 30%;}
+.little{position: absolute;left: 50%}
+.little a{width: 6px;height: 6px;display: inline-block;border-radius: 50%}
+.hr{height: 5px;margin: 0}
+.t-img2{width: 50%}
+.t-img3{width: 100%}
+.t-img4{width: 3%}
+/*.t-img5{width: 15%;height: 15%}*/
+.t-img5{width: 100px;height: 100px;}
+
+/*主体*/
+.text{text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.pa{position: absolute;top: 0;left: 0}
+.hot-ul{width: 100%}
+.hot-ul li{float: left;flex: 1;margin-left: 5px;width: 10%;overflow: hidden;}
+.hot-ul a,.hot-ul p{font-size: 12px;margin: 0;}
+.hots-ul{box-sizing: border-box;white-space: nowrap;overflow-x: auto;}
+/*.hots-ul{box-sizing: border-box;white-space: nowrap;}*/
+.hots-ul li{margin-right: 5px;width: 100px;display: inline-block;}
+.hots-ul a,.hot-ul p{font-size: 12px;margin: 0;}
+
+
+
+/*猜你喜欢*/
+.bor{border-radius: 0 0 50% 0}
+.like-div{width: 100%;}
+.like-div p{padding-top: 10px;}
+.bgr{background-color: #F5D2D2}
+.r{color: #F62B64}
+.w{margin-left: 15%}
+.borTop{border-top: 5px solid #EAE5E5}
+.yes{text-decoration: underline;}
+.foot-ul{width: 100%;box-sizing: border-box;display: flex;}
+.foot-ul li{float: left;flex: 1}
+.foot-div a{color: blue;margin-left: 20px;}
+
+
+
+/*轮播图*/
+.focus{ width:100%; margin:0 auto; position:relative; overflow:hidden;   }
+.focus .hd{ width:100%; height:11px;  position:absolute; z-index:1; bottom:5px; text-align:center;  }
+.focus .hd ul{ display:inline-block; height:5px; padding:3px 5px;
+	-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; font-size:0; vertical-align:top;}
+.focus .hd ul li{ display:inline-block; width:5px; height:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#8C8C8C; margin:0 5px;  vertical-align:top; overflow:hidden;   }
+.focus .hd ul .on{ background:white;  }
+.focus .bd{ position:relative; z-index:0; }
+.focus .bd li img{ width:100%;  background:url(../img/details/loading.gif) center center no-repeat;  }
+.focus .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
